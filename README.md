@@ -30,17 +30,15 @@ Original downloaded files from UCI Machine Learning Repository consist of dozen 
 Since sensor data has quite a bit outliers, so we choose QuantileTransformer performs a non-linear transformation to spread out the most frequent values. It also reduces the impact of outliers that caused by failed system detection.
 3. First train model and make prediction, classification report shows weighted avg f1-score of 0.977327.
 
-<img src="./images/confusion matrix - initial training.png" alt="Feature Importances" width="300" />
-<img src="./images/classification report - initial training.png" alt="Feature Importances" width="400" />
+<img src="./images/confusion matrix - initial training.png" alt="Feature Importances" width="300" />  <img src="./images/classification report - initial training.png" alt="Feature Importances" width="400" />
 
 4. Then conduct Hyperparameter tuning. RandomizedSearchCV is adopted to find the best model. Make another prediction using best model and classification report shows weighted avg f1-score increased 0.62% to 0.983359.
 
-<img src="./images/confusion matrix - after hyperparameter tuning.png" alt="Feature Importances" width="300" /> <img src="./images/classification report - after hyperparameter tuning.png" alt="Feature Importances" width="400" />
+<img src="./images/confusion matrix - after hyperparameter tuning.png" alt="Feature Importances" width="300" />  <img src="./images/classification report - after hyperparameter tuning.png" alt="Feature Importances" width="400" />
 
 5. Apply feature selection to pick most relevant features and re-train the model again using selected features, weighted avg f1-score increased 1.08% to 0.987891.
 
-<img src="./images/confusion matrix - after feature selection.png" alt="Feature Importances" width="300" />
-<img src="./images/classification report - after feature selection.png" alt="Feature Importances" width="400" />
+<img src="./images/confusion matrix - after feature selection.png" alt="Feature Importances" width="300" />  <img src="./images/classification report - after feature selection.png" alt="Feature Importances" width="400" />
 
 ## Findings and Recommendations
 1. Out of 4 components, Valve condition and Internal pump leakage are top two significant factors affecting the stability of the hydraulic system. When valve condition is lagging or close to failure, or Internal pump leakage starts to occur, system's stability begins to decrease. Therefore, EngergyMobile should conduct regular inspections and maintenance of the valves, monitor internal pump leakages closely and resolve any leakages promptly in order to ensure system stability.
