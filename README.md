@@ -35,8 +35,7 @@ Since sensor data has quite a bit outliers, so we choose QuantileTransformer per
 
 4. Then conduct Hyperparameter tuning. RandomizedSearchCV is adopted to find the best model. Make another prediction using best model and classification report shows weighted avg f1-score increased 0.62% to 0.983359.
 
-<img src="./images/confusion matrix - after hyperparameter tuning.png" alt="Feature Importances" width="300" />
-<img src="./images/classification report - after hyperparameter tuning.png" alt="Feature Importances" width="400" />
+<img src="./images/confusion matrix - after hyperparameter tuning.png" alt="Feature Importances" width="300" /> <img src="./images/classification report - after hyperparameter tuning.png" alt="Feature Importances" width="400" />
 
 5. Apply feature selection to pick most relevant features and re-train the model again using selected features, weighted avg f1-score increased 1.08% to 0.987891.
 
