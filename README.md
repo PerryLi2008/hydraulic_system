@@ -52,3 +52,5 @@ Interactive version of dashboards can be accessed through link to taleau public.
 ## Future Improvements
 1. Use Recursive Feature Elimination to figure out the best feature selection.
 2. Try different ML models such as SVM or Deep Learning models for more accurate prediction.
+
+Note: Inspired by Stephen Duckers' project.
