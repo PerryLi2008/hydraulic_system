@@ -42,7 +42,7 @@ Since sensor data has quite a bit outliers, so we choose QuantileTransformer per
 
 ### Tableau Dashboards
 Tableau dashboards are created to help understanding of data and gain more insights.  
-Interactive version of dashboards can be accessed through link to taleau public. For more detail, check /dashboard directory.
+Interactive version of dashboards can be accessed through link to taleau public. For more detail, check [/dashboard directory](https://github.com/PerryLi2008/hydraulic_system/tree/ae4a5505ef139808546d10a6d383c7c825261308/dashboard).
 
 ## Findings and Recommendations
 1. Out of 4 components, Valve condition and Internal pump leakage are top two significant factors affecting the stability of the hydraulic system. When valve condition is lagging or close to failure, or Internal pump leakage starts to occur, system's stability begins to decrease. Therefore, EngergyMobile should conduct regular inspections and maintenance of the valves, monitor internal pump leakages closely and resolve any leakages promptly in order to ensure system stability.
