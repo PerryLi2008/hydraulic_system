@@ -46,7 +46,7 @@ Interactive version of dashboards can be accessed through link to taleau public.
 
 ## Findings and Recommendations
 1. Out of 4 components, Valve condition and Internal pump leakage are top two significant factors affecting the stability of the hydraulic system. When valve condition is lagging or close to failure, or Internal pump leakage starts to occur, system's stability begins to decrease. Therefore, EngergyMobile should conduct regular inspections and maintenance of the valves, monitor internal pump leakages closely and resolve any leakages promptly in order to ensure system stability.
-2. Difference sensor data various feature importance affecting system stability prediction. These features: ['EPS1', 'PS1', 'PS4', 'PS2', 'PS6', 'SE', 'TS1', 'TS2', 'TS3', 'TS4'] have weight in their affluence to the model. Suggest EngergyMobile to focus more on these sensors and underline system to prevent potential system instabilities.
+2. Different sensor data has various feature importance which affecting system stability prediction. These features: ['EPS1', 'PS1', 'PS4', 'PS2', 'PS6', 'SE', 'TS1', 'TS2', 'TS3', 'TS4'] have weight in their affluence to the model. Suggest EngergyMobile to focus more on these sensors and underline system to prevent potential system instabilities.
 3. Random Forest Classification model achieved 98.8% accuracy in predicting system stability. EnergyMobile can consider adopting this model for real time system stability monitoring and prediction to prevent future outage.
 
 ## Future Improvements
